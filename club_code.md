@@ -1,5 +1,6 @@
 ### Solution
 
+
 ```ruby
 people = [
   { name: "Jack",  age: 16 },
@@ -62,7 +63,8 @@ def admitted_folks(people, age_limit, club_limit)
 		if person[:age] > age_limit
 			club_folks << person
 		end
-		 break if club_folks.length == club_limit
+		
+		break if club_folks.length == club_limit
 	end
 	
 	return club_folks
