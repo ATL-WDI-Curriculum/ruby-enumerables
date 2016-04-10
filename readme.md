@@ -207,7 +207,7 @@ and using what you know about loops and collections in Ruby, write a program tha
   }
   ```
 
-[A Solution](https://gist.github.com/nolds9/9f62c6f10740de8a9b8e)
+[A Solution](https://github.com/ATL-WDI-Curriculum/ruby-enumerables/blob/master/club_code.md)
 
 ## Break (10 / 60)
 
