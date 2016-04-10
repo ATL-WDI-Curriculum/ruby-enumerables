@@ -94,6 +94,7 @@ Say we had our `fruits` example from earlier and we wanted to print each individ
 
 ```js
 var fruits = ["apple", "banana", "cherry"];
+
 for (var i = 0; i < fruits.length; i++) {
   console.log(fruits[i]);
 }
@@ -103,8 +104,9 @@ for (var i = 0; i < fruits.length; i++) {
 
 The closest equivalent to Javascript's `for` loop is Ruby's `for-in` loop
 
-```rb
+```ruby
 fruits = ["apple", "banana", "cherry"]
+
 for fruit in fruits do
   puts fruit
 end
