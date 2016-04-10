@@ -381,6 +381,10 @@ jack = {
 jack.each do |key, value|
 	puts "My #{key} is #{value}"	
 end
+
+# My name is Jack
+# My age is 16
+# My hometown is the A
 ```
 
 ## Group Exercise: Documentation Dive (10 / 150)
