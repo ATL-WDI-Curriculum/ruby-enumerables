@@ -368,7 +368,22 @@ Use `map` to do the following...
 
 ## Break (10 / 130)
 
-## Group Exercise: Documentation Dive (20 / 150)
+## Iterating over Hashes (10 / 140)
+So far we've seen how to loop over arrays, but what about hashes? They're very similar to arrays, however, we need to pass `key` and `value` into the enumeration block.
+
+```ruby
+jack = { 
+	name: "Jack", 
+	age: 16,
+	hometown: "the A"
+}
+
+jack.each do |key, value|
+	puts "My #{key} is #{value}"	
+end
+```
+
+## Group Exercise: Documentation Dive (10 / 150)
 
 Instructions: Each group will spend **10 minutes** using Ruby documentation to look up an assigned enumerable. Prepare your own definition of what it does and whiteboard an example.
 - You can test your example in IRB/Pry.
